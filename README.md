@@ -69,20 +69,15 @@ git clone https://github.com/yourusername/election-simulation.git
 cd election-simulation
 ```
 
-2. Run the election simulation:
+2. Open the Jupyter or Colab notebook:
 
-```bash
-python election_simulation.py
-```
+   - If using Jupyter Notebook:
+     ```bash
+     jupyter notebook election_sim.ipynb
+     ```
+   - If using Google Colab, upload the notebook (`election_sim.ipynb`) directly to Colab.
 
-3. Customize the simulation:
-   - Adjust the number of simulations by modifying the `n_simulations` parameter in the `simulate_election_dynamic_manual_adjustments()` function.
-   - Modify the `pvi_scores` dictionary to reflect different electoral environments or candidate performances.
-   - Change the distribution of electoral votes if necessary by updating the `electoral_votes` dictionary.
-
-4. After running the simulation, a CSV file with detailed results for all 10,000 simulations will be saved as `10000_sims.csv`.
-
-5. To visualize the simulation results, various plots including bar plots, density plots, and CDFs will be generated.
+3. Run the cells sequentially to execute the election simulation and generate the plots.
 
 ## Output
 
